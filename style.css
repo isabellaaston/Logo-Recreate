@@ -1,0 +1,49 @@
+.circle {
+	 width: 400px;
+     height: 400px;
+     background-image: conic-gradient(
+		 rgb(45, 143, 176) 120deg,
+		 rgb(41, 80, 116) 0 240deg,
+		 rgb(148, 186, 102) 0deg
+		 );
+     border-radius: 50%;
+	 position: absolute;
+	 left: 759px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(242, 115, 37);
+ 	position: absolute;
+ 	left: 910px;
+ 	top: 130px;
+}
+.trapezium {
+     width: 0;
+     height: 0;
+     border-left: 80px solid transparent;
+     border-right: 80px solid transparent;
+     border-bottom: 100px solid rgb(255, 255, 255);
+	 padding-left: 150px;
+	 position: absolute;
+	 left: 800px;
+	 top: 230px;
+}
+.rectangle-left{
+    width: 500px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+	position: absolute;
+	top: 80px;
+	left: 655px;
+	transform: rotate(115deg);
+}
+.rectangle-right{
+    width: 200px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+}
+  
+ 
