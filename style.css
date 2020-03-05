@@ -36,9 +36,10 @@
     height: 85px;
     background: rgb(255, 255, 255);
 	position: absolute;
-	top: 92px;
-	left: 650px;
+	top: 190px;
+	left: 615px;
 	transform: rotate(115deg);
+	border-radius: 0 0 0 40px;
 }
 .rectangle-right{
     width: 500px;
