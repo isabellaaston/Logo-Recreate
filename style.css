@@ -2,9 +2,9 @@
 	 width: 400px;
      height: 400px;
      background-image: conic-gradient(
-		 rgb(45, 143, 176) 120deg,
-		 rgb(41, 80, 116) 0 240deg,
-		 rgb(148, 186, 102) 0deg
+		 #2D8FB0 120deg,
+		 #295074 0 240deg,
+		 #94BA66 0deg
 		 );
      border-radius: 50%;
 	 position: absolute;
@@ -13,19 +13,19 @@
 .triangle {
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid rgb(242, 115, 37);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid rgb(242, 115, 37);
  	position: absolute;
- 	left: 910px;
- 	top: 130px;
+ 	left: 850px;
+ 	top: 90px;
 }
 .trapezium {
      width: 0;
      height: 0;
      border-left: 80px solid transparent;
      border-right: 80px solid transparent;
-     border-bottom: 100px solid rgb(255, 255, 255);
+     border-bottom: 60px solid rgb(255, 255, 255);
 	 padding-left: 150px;
 	 position: absolute;
 	 left: 800px;
@@ -33,17 +33,20 @@
 }
 .rectangle-left{
     width: 500px;
-    height: 100px;
+    height: 85px;
     background: rgb(255, 255, 255);
 	position: absolute;
-	top: 80px;
-	left: 655px;
+	top: 92px;
+	left: 660px;
 	transform: rotate(115deg);
 }
 .rectangle-right{
-    width: 200px;
-    height: 100px;
+    width: 500px;
+    height: 85px;
     background: rgb(255, 255, 255);
+	position: absolute;
+	top: 200px;
+	left: 805px;
+	transform: rotate(65deg);
 }
-  
- 
+#2D8FB0
