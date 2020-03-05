@@ -37,7 +37,7 @@
     background: rgb(255, 255, 255);
 	position: absolute;
 	top: 92px;
-	left: 660px;
+	left: 650px;
 	transform: rotate(115deg);
 }
 .rectangle-right{
@@ -46,7 +46,6 @@
     background: rgb(255, 255, 255);
 	position: absolute;
 	top: 200px;
-	left: 805px;
+	left: 819px;
 	transform: rotate(65deg);
 }
-#2D8FB0
